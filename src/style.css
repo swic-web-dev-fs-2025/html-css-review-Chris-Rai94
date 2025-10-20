@@ -1,19 +1,19 @@
-.nav {
+.flex-container {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-.grid-container {
-  display: grid;
-  grid-template-areas: "sidebar main";
-  grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
+.body {
+  margin: 5px;
+  padding: 5px;
+  background-color: lightsalmon;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #333;
 }
 
-.sidebar {
-  grid-area: sidebar;
-}
-
-.main {
-  grid-area: main;
+header {
+  text-align: center;
+  margin-bottom: 20px;
 }
