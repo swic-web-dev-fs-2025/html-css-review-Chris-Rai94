@@ -24,3 +24,10 @@
   margin-top: 20px;
   font-size: small;
 }
+
+.ingredients {
+  width: 30%;
+  padding: 10px;
+  background-color: #ffe4e1;
+  border-radius: 5px;
+}
