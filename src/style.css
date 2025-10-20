@@ -6,6 +6,14 @@
   padding: 20px;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  margin: 20px;
+  padding: 20px;
+}
+
 .body {
   margin: 20px;
   padding: 20px;
