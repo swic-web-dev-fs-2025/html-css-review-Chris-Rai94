@@ -1,12 +1,14 @@
 .flex-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  margin: 20px;
+  padding: 20px;
 }
 
 .body {
-  margin: 5px;
-  padding: 5px;
+  margin: 20px;
+  padding: 20px;
   background-color: lightsalmon;
   font-family: Arial, sans-serif;
   font-size: 16px;
@@ -27,6 +29,14 @@
 
 .ingredients {
   width: 30%;
+  padding: 10px;
+  background-color: #ffe4e1;
+  border-radius: 5px;
+  margin: 40px;
+}
+
+.directions {
+  width: 65%;
   padding: 10px;
   background-color: #ffe4e1;
   border-radius: 5px;
